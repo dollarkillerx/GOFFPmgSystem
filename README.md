@@ -6,13 +6,29 @@ Golang FFMPeg 云转码
 
 ### 目录结构
 ```
+.
 ├── api
 │   ├── dbops 数据库交互
+│   │   ├── api.go 
+│   │   ├── api_test.go
+│   │   ├── conn.go 数据库链接
+│   │   └── internal.go 内部操作sql相关
 │   ├── defs 一切的配置
-│   ├── handlers.go
-│   └── main.go 
+│   │   ├── apidef.go 
+│   │   └── errs.go 错误定义
+│   ├── handlers.go 头部处理
+│   ├── main.go 
+│   ├── response.go 返回定义
+│   ├── session session相关
+│   │   └── ops.go session的实现与cache
+│   └── utils 常用工具库
+│       ├── encryption.go 加密解密相关
+│       ├── simpleTime.go 时间处理相关
+│       ├── tootl_test.go 
+│       └── uuid.go 
+├── go.mod
+├── go.sum
 ├── README.md
-
 ```
 
 ### API设计
