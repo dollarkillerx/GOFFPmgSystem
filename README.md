@@ -48,3 +48,13 @@ Golang FFMPeg 云转码
 - Show comments:URL:/videos/:vid-id/comments Method:GET,SC:200,400,500
 - Post a comment:URL:/videos/:vid-id/comments Method:POST,SC:201,400,500
 - Delete a comment:URL:/videos/:vid-id/comment/:comment-id Method:DELETE,SC:204,400,401,403,500
+
+
+#### Stream Server
+- Streaming
+- Upload files
+
+流控方案:
+bucket 算法
+channel. shared channel instead of shared memory
+
