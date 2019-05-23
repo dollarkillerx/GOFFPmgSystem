@@ -7,7 +7,7 @@ Golang FFMPeg 云转码
 ### 目录结构
 ```
 .
-├── api
+├── api 用户相关服务
 │   ├── dbops 数据库交互
 │   │   ├── api.go 
 │   │   ├── api_test.go
@@ -26,6 +26,31 @@ Golang FFMPeg 云转码
 │       ├── simpleTime.go 时间处理相关
 │       ├── tootl_test.go 
 │       └── uuid.go 
+├── streamserver 视频相关服务
+│   ├── defs.go  一些结构定义
+│   ├── handlers.go
+│   ├── limiter.go 流控模块
+│   ├── main.go
+│   ├── response.go
+│   ├── streamserver 
+│   └── VIDEOS //视频文件
+│       ├── test1.mp4
+│       └── test.mp4
+├── scheduler 调度模块
+│   ├── dbops 数据库相关
+│   │   ├── api.go
+│   │   ├── conn.go
+│   │   └── internal.go
+│   ├── handlers.go
+│   ├── main.go
+│   ├── response.go
+│   ├── scheduler 
+│   ├── taskruner  
+│   │   ├── defs.go
+│   │   ├── runner.go 调度器
+│   │   ├── runner_test.go
+│   │   ├── task.go
+│   │   └── trmain.go 定时任务
 ├── go.mod
 ├── go.sum
 ├── README.md
@@ -53,6 +78,10 @@ Golang FFMPeg 云转码
 #### Stream Server
 - Streaming
 - Upload files
+
+#### Scheduler Server
+- Timer
+- 生成/消费模型下的 task runner
 
 流控方案:
 bucket 算法
