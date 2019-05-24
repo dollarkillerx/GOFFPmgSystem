@@ -36,7 +36,7 @@ Golang FFMPeg 云转码
 │   └── VIDEOS //视频文件
 │       ├── test1.mp4
 │       └── test.mp4
-├── scheduler 调度模块
+├── scheduler 调度服务
 │   ├── dbops 数据库相关
 │   │   ├── api.go
 │   │   ├── conn.go
@@ -46,11 +46,23 @@ Golang FFMPeg 云转码
 │   ├── response.go
 │   ├── scheduler 
 │   ├── taskruner  
-│   │   ├── defs.go
-│   │   ├── runner.go 调度器
-│   │   ├── runner_test.go
-│   │   ├── task.go
-│   │   └── trmain.go 定时任务
+│       ├── defs.go
+│       ├── runner.go 调度器
+│       ├── runner_test.go
+│       ├── task.go
+│       └── trmain.go 定时任务
+├── template  模板
+│   ├── home.html
+│   ├── img
+│   ├── script
+│   │   └── home.js
+│   └── userhome.html
+├── web web服务
+│   ├── client.go
+│   ├── defs.go
+│   ├── handlers.go
+│   ├── main.go
+│   └── web
 ├── go.mod
 ├── go.sum
 ├── README.md
@@ -86,4 +98,9 @@ Golang FFMPeg 云转码
 流控方案:
 bucket 算法
 channel. shared channel instead of shared memory
+
+
+### 大前端
+- GO 模板引擎 有两种text/template和html/template
+- GO 模板 采用动态生成的模式
 

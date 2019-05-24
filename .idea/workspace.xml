@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36177475-4fe9-4f98-a467-ae738b4f1ca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scheduler/dbops/api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/dbops/conn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/dbops/internal.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/handlers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/response.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/taskruner/defs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/taskruner/runner.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/taskruner/runner_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/taskruner/task.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/taskruner/trmain.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/video_del_rec.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/script/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/userhome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/defs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamserver/defs.go" beforeDir="false" afterPath="$PROJECT_DIR$/streamserver/defs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamserver/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/streamserver/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamserver/limiter.go" beforeDir="false" afterPath="$PROJECT_DIR$/streamserver/limiter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamserver/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/streamserver/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler/taskruner/runner_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler/taskruner/runner_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,16 +21,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="218" />
+    <option name="myElementSize" value="120" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="279">
-                <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+              <first_editor relative-caret-position="219">
+                <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -46,99 +47,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler/taskruner/runner.go">
+        <entry file="file://$PROJECT_DIR$/web/client.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///opt/go/src/net/http/status.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/handlers.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="77" column="20" lean-forward="true" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/defs.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler/main.go">
+        <entry file="file://$PROJECT_DIR$/build.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler/handlers.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-              <folding>
-                <element signature="e#14#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/handlers.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-              <folding>
-                <element signature="e#14#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler/response.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler/taskruner/trmain.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/streamserver/main.go">
+        <entry file="file://$PROJECT_DIR$/template/userhome.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="11" selection-start-line="11" selection-end-line="31" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#75#0" expanded="true" />
-              </folding>
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler/dbops/api.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#177#193#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/template/script/home.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -146,6 +125,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Go File" />
       </list>
     </option>
@@ -157,9 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/mai_test.go" />
-        <option value="$PROJECT_DIR$/api/tf/handlers.go" />
-        <option value="$PROJECT_DIR$/api/defs/api.go" />
         <option value="$PROJECT_DIR$/BaseSQL.sql" />
         <option value="$PROJECT_DIR$/api/dbops/coon.go" />
         <option value="$PROJECT_DIR$/api/dbops/bb_test.go" />
@@ -187,7 +165,6 @@
         <option value="$PROJECT_DIR$/scheduler/taskruner/tsmain.go" />
         <option value="$PROJECT_DIR$/scheduler/taskruner/runner.go" />
         <option value="$PROJECT_DIR$/scheduler/test.go" />
-        <option value="$PROJECT_DIR$/scheduler/taskruner/runner_test.go" />
         <option value="$PROJECT_DIR$/streamserver/video_del_rec.sql" />
         <option value="$PROJECT_DIR$/scheduler/dbops/conn.go" />
         <option value="$PROJECT_DIR$/scheduler/dbops/internal.go" />
@@ -200,13 +177,23 @@
         <option value="$PROJECT_DIR$/api/main.go" />
         <option value="$PROJECT_DIR$/scheduler/main.go" />
         <option value="$PROJECT_DIR$/streamserver/main.go" />
+        <option value="$PROJECT_DIR$/scheduler/taskruner/runner_test.go" />
+        <option value="$PROJECT_DIR$/template/tt.html" />
+        <option value="$PROJECT_DIR$/template/userhome.html" />
+        <option value="$PROJECT_DIR$/template/script/home.js" />
+        <option value="$PROJECT_DIR$/template/home.html" />
+        <option value="$PROJECT_DIR$/build.sh.go" />
+        <option value="$PROJECT_DIR$/build.sh" />
+        <option value="$PROJECT_DIR$/web/main.go" />
+        <option value="$PROJECT_DIR$/web/handlers.go" />
+        <option value="$PROJECT_DIR$/web/defs.go" />
+        <option value="$PROJECT_DIR$/web/client.go" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="665" />
-    <option name="y" value="27" />
+    <option name="y" value="25" />
     <option name="width" value="1343" />
     <option name="height" value="985" />
   </component>
@@ -215,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,29 +212,7 @@
             <path>
               <item name="GOFFPmgSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="GOFFPmgSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GOFFPmgSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GOFFPmgSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GOFFPmgSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GOFFPmgSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="dbops" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GOFFPmgSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GOFFPmgSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="taskruner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GOFFPmgSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GOFFPmgSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="streamserver" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GOFFPmgSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -258,10 +222,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -270,10 +236,10 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Golang-Study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -358,15 +324,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCommentWorkFlow_in_GOFFPmgSystem_api_dbops - 2019.05.18 at 10h 09m 12s.xml">
-      <configuration name="TestCommentWorkFlow in GOFFPmgSystem/api/dbops" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestCommentWorkFlow_in_GOFFPmgSystem_api_dbops - 2019.05.18 at 10h 09m 29s.xml">
-      <configuration name="TestCommentWorkFlow in GOFFPmgSystem/api/dbops" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestCommentWorkFlow_in_GOFFPmgSystem_api_dbops - 2019.05.18 at 10h 11m 48s.xml">
-      <configuration name="TestCommentWorkFlow in GOFFPmgSystem/api/dbops" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestCommentWorkFlow_AddComment_in_GOFFPmgSystem_api_dbops - 2019.05.18 at 10h 12m 38s.xml">
       <configuration name="TestCommentWorkFlow/AddComment in GOFFPmgSystem/api/dbops" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -388,17 +345,26 @@
     <history-entry file="TestRunner_in_GOFFPmgSystem_scheduler_taskruner - 2019.05.23 at 15h 05m 47s.xml">
       <configuration name="TestRunner in GOFFPmgSystem/scheduler/taskruner" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestRunner_in_GOFFPmgSystem_scheduler_taskruner - 2019.05.23 at 20h 42m 03s.xml">
+      <configuration name="TestRunner in GOFFPmgSystem/scheduler/taskruner" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestRunner_in_GOFFPmgSystem_scheduler_taskruner - 2019.05.23 at 20h 42m 35s.xml">
+      <configuration name="TestRunner in GOFFPmgSystem/scheduler/taskruner" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestRunner_in_GOFFPmgSystem_scheduler_taskruner - 2019.05.23 at 20h 43m 04s.xml">
+      <configuration name="TestRunner in GOFFPmgSystem/scheduler/taskruner" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2361111" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19604701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21871345" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5450292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,13 +372,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.121081084" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2918919" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.16880342" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.16833977" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15817855" />
@@ -447,7 +413,7 @@
     <SUITE FILE_PATH="coverage/GOFFPmgSystem$TestVideoWorkFlow_in_GOFFPmgSystem_api_dbops.out" NAME="TestVideoWorkFlow in GOFFPmgSystem/api/dbops Coverage Results" MODIFIED="1558061722802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/GOFFPmgSystem$TestCommentWorkFlow_AddComment_in_GOFFPmgSystem_api_dbops.out" NAME="TestCommentWorkFlow/AddComment in GOFFPmgSystem/api/dbops Coverage Results" MODIFIED="1558145558719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/GOFFPmgSystem$TestMd5_in_bb_test_go.out" NAME="TestMd5 in bb_test.go Coverage Results" MODIFIED="1557994156786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/GOFFPmgSystem$TestRunner_in_GOFFPmgSystem_scheduler_taskruner.out" NAME="TestRunner in GOFFPmgSystem/scheduler/taskruner Coverage Results" MODIFIED="1558595144206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/GOFFPmgSystem$TestRunner_in_GOFFPmgSystem_scheduler_taskruner.out" NAME="TestRunner in GOFFPmgSystem/scheduler/taskruner Coverage Results" MODIFIED="1558615381378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/GOFFPmgSystem$TestCommentWorkFlow_in_GOFFPmgSystem_api_dbops.out" NAME="TestCommentWorkFlow in GOFFPmgSystem/api/dbops Coverage Results" MODIFIED="1558145785419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/GOFFPmgSystem$go_test_GOFFPmgSystem_api_tootl.out" NAME="go test GOFFPmgSystem/api/tootl Coverage Results" MODIFIED="1558056193801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/GOFFPmgSystem$TestNewUUID_in_GOFFPmgSystem_api_tootl.out" NAME="TestNewUUID in GOFFPmgSystem/api/tootl Coverage Results" MODIFIED="1558056010072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -464,81 +430,6 @@
     <SUITE FILE_PATH="coverage/GOFFPmgSystem$TestB2_in_bb_test_go.out" NAME="TestB2 in bb_test.go Coverage Results" MODIFIED="1557994387545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/go.mod">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/GOPATH/pkg/mod/github.com/julienschmidt/httprouter@v1.2.0/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/GOPATH/pkg/mod/github.com/julienschmidt/httprouter@v1.2.0/router_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2232" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/GOPATH/pkg/mod/github.com/julienschmidt/httprouter@v1.2.0/tree_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/utils/uuid.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#15#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/utils/encryption.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/go/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="829" selection-start-line="829" selection-end-line="829" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="521" selection-start-line="521" selection-end-line="521" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/utils/tootl_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/dbops/api_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#15#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/utils/simpleTime.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///opt/go/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -615,24 +506,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///opt/go/src/net/http/status.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///opt/go/src/bytes/buffer.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="197" column="24" selection-start-line="197" selection-start-column="24" selection-end-line="197" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/go/src/net/http/request.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="1306" column="46" selection-start-line="1306" selection-start-column="46" selection-end-line="1306" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -660,13 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/test.go" />
     <entry file="file://$PROJECT_DIR$/api/dbops/internal.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1092">
@@ -681,16 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3150">
           <caret line="10" selection-start-line="10" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/taskruner/runner_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="e#19#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/taskruner/defs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///opt/go/src/sync/map.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -749,27 +603,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/taskruner/task.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#19#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///opt/go/src/time/time.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="633" selection-start-line="633" selection-end-line="633" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/dbops/internal.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -804,22 +641,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/main.go">
+    <entry file="file://$PROJECT_DIR$/scheduler/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <element signature="e#14#75#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="312">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/main.go">
+    <entry file="file://$PROJECT_DIR$/scheduler/dbops/internal.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="391">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/taskruner/task.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/taskruner/runner.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/taskruner/runner_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/taskruner/defs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/handlers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
-            <element signature="e#14#26#0" expanded="true" />
+            <element signature="e#14#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -834,28 +710,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/handlers.go">
+    <entry file="file://$PROJECT_DIR$/template/tt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="288">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/userhome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/script/home.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/GOPATH/pkg/mod/github.com/julienschmidt/httprouter@v1.2.0/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/go/src/net/http/request.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="801" column="5" selection-start-line="801" selection-start-column="5" selection-end-line="801" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/defs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/handlers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="77" column="20" lean-forward="true" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
           <folding>
             <element signature="e#14#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/taskruner/runner.go">
+    <entry file="file:///opt/go/src/net/http/status.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="62">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="279">
-            <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <first_editor relative-caret-position="219">
+            <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>

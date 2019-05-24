@@ -23,7 +23,6 @@ func TestRunner(t *testing.T) {
 						log.Printf("Executor received:%v",d)
 					default:
 						break forloop
-
 				}
 			}
 		return nil
