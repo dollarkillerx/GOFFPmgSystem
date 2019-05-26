@@ -3,11 +3,12 @@ package main
 import (
 	"encoding/json"
 	"github.com/julienschmidt/httprouter"
-	"io"
+	"html/template"
 	"io/ioutil"
 	"log"
 	"net/http"
-	"html/template"
+	"net/http/httputil"
+	"net/url"
 )
 
 type HomePage struct {
@@ -81,4 +82,17 @@ func apiHandler(w http.ResponseWriter,r *http.Request,p httprouter.Params)  {
 
 	request(apibody,w,r)
 	defer r.Body.Close()
+}
+
+// proxy
+func proxyHandler(w http.ResponseWriter,r *http.Request,p httprouter.Params)  {
+	parse, _ := url.Parse("http://127.0.0.1:9001/")
+	proxy := httputil.NewSingleHostReverseProxy(parse)
+	proxy.ServeHTTP(w,r)
+}
+
+func proxygo(w http.ResponseWriter,r *http.Request,p httprouter.Params)  {
+	parse, _ := url.Parse("https://www.google.com/")
+	proxy := httputil.NewSingleHostReverseProxy(parse)
+	proxy.ServeHTTP(w,r)
 }

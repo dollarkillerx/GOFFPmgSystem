@@ -12,8 +12,6 @@ type SignedUp struct {
 	SessionId string `json:"session_id"`
 }
 
-
-
 // Data model
 type VideoInfo struct {
 	VideoId string
